@@ -1,8 +1,12 @@
 aid: jobbatical
 name: Jobbatical
-description: Jobbatical is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Jobbatical is a global mobility and immigration platform that helps companies manage
+  international employee relocations, work visas, residence permits, and cross-border compliance across
+  45+ countries. It combines AI-powered case automation with expert immigration support to streamline
+  eligibility assessments, visa and permit applications, renewal tracking, and settlement services for
+  HR and mobility teams. The product centralizes case management, document processing, visa form
+  automation, real-time status tracking, and renewal alerts, and offers pay-as-you-go or pre-purchased
+  credit (FlexyPocket) pricing. Backed by Union Square Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/jobbatical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +14,31 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Immigration
+- Global Mobility
+- Relocation
+- Visas
+- Work Permits
+- HR
+- Compliance
+- SaaS
+image: https://jobbatical.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jobbatical-domain-security.yml
 - type: Website
   url: https://jobbatical.com
+- type: Blog
+  url: https://www.jobbatical.com/blog
+- type: Pricing
+  url: https://www.jobbatical.com/pricing
+- type: SignUp
+  url: https://app.jobbatical.com/auth/clients/signup
+- type: TermsOfService
+  url: https://www.jobbatical.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.jobbatical.com/privacy-notice
+- type: Support
+  url: https://www.jobbatical.com/contact-us
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
